@@ -2,41 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Simple Layout</title>
+  <title>The Art Counsel</title>
   <style>
     body {
       margin: 0;
-      height: 100vh;
-      position: relative;
-      font-family: Arial, sans-serif;
+      padding: 0;
     }
-
-    /* Image in top-left corner */
-    .top-left-image {
+    img {
       position: absolute;
-      top: 10px;
-      left: 10px;
-      width: 100px; /* adjust as needed */
-      height: auto;
+      top: 0;
+      right: 0;
     }
-
-    /* Text in bottom-left corner */
-    .bottom-left-text {
-      position: absolute;
-      bottom: 10px;
-      left: 10px;
-      color: #333;
-      font-size: 16px;
+    p {
+      text-align: right;
+      margin-top: 5em; /* Push paragraph 5 lines down */
+      margin-right: 10px; /* Slight padding from the right edge */
     }
   </style>
 </head>
 <body>
-
-  <img src="tac_logo_notag.png" alt="Top Left" class="top-left-image">
-
-  <div class="bottom-left-text">
-    This is some text in the bottom left corner. 9:45
-  </div>
-
+  <a href="mailto:lisa@theartcounsel.com">
+    <img src="tac_logo_notag.png" alt="The Art Counsel">
+  </a>
+  <p>ASTHMATIC KITTY RECORDS. SUFJAN STEVENS. SISYPHUS.947 </p>
 </body>
 </html>
